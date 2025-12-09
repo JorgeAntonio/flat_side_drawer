@@ -1,6 +1,6 @@
 name: flat_side_drawer
 description: "A clean, flat implementation of a side drawer with slide animation and overlay, similar to the ChatGPT mobile app style. No 3D effects."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/JorgeAntonio/flat_side_drawer
 
 environment:
