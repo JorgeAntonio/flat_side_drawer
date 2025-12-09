@@ -1,10 +1,10 @@
-Flat Side Drawer
+# Flat Side Drawer
 
 A Flutter package that provides a "flat" side drawer navigation experience, similar to the ChatGPT mobile application or modern iOS apps.
 
 Unlike other drawer packages that use 3D rotations or scale down the main screen, FlatSideDrawer keeps the main screen flat and slides it horizontally, adding a subtle shadow and an interactive overlay.
 
-Features
+### Features
 
 🚀 Flat Slide Animation: No 3D perspective or scaling.
 
@@ -16,17 +16,16 @@ Features
 
 🎮 Controller: Programmatic control via FlatSideDrawerController.
 
-Usage
+### Usage
 
+```
 import 'package:flat_side_drawer/flat_side_drawer.dart';
+```
 
-// ...
-
+```
 FlatSideDrawer(
   controller: _controller,
-  // The menu hidden behind
   menu: MyMenuScreen(), 
-  // The main content that slides
   body: Scaffold(
      appBar: AppBar(
        leading: IconButton(
@@ -37,3 +36,4 @@ FlatSideDrawer(
      body: Center(child: Text("Main Content")),
   ),
 )
+```
